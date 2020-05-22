@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+h1{
+    text-align: center;
+    margin: 250px 10px 0 90px;
+    font-size: 140px;
+    letter-spacing: 100px;
+    color: rgb(225, 225, 225);
+    text-transform: uppercase;
+    font-family: Arial;
+    background: url(p.jpg) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-name: name;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes name {
+    0% {
+        background-position: left 0px top 10px;
+    }
+    40% {
+        background-position: left 800px top 10px;
+    }
+}
